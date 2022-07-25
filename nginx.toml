@@ -4,7 +4,7 @@ exclude = [
 ]
 
   [[build.buildpacks]]
-  uri = "paketo-buildpacks/web-servers"
+  uri = "tanzu-buildpacks/web-servers"
 
   [[ build.env ]]
     name="BP_NODE_RUN_SCRIPTS"
